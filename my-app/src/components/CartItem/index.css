@@ -1,0 +1,45 @@
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 16px;
+    margin-bottom: 16px;
+    box-shadow: 0px 4px 16px 0px #eaebed;
+    display: flex;
+    justify-content: space-between;
+  }
+.img-text{
+    display: flex;
+}
+.cart-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+
+.cart-price{
+    font-family: roboto;
+    font-size: 20px;
+    color: #0b69ff;
+}
+.beds-baths{
+    display: flex;
+}
+.cart-beds, .cart-baths{
+    font-family: roboto;
+    font-size: 14px;
+    margin-right: 6px;
+}
+.cart-address{
+    font-family: roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+.remove-btn{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}

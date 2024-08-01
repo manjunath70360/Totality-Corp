@@ -1,0 +1,43 @@
+.nav-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(9, 15, 172);
+    position: fixed;
+}
+.icon-container-nav{
+display: flex;
+align-items: center;
+justify-content: space-between;
+width: 34%;
+margin-right: 20px;
+}
+.logo-name{
+    font-family: roboto;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.total-cart{
+    display: flex;
+    align-items: center;
+}
+.total{
+    font-family: roboto;
+    font-size: 13px;
+    background-color: white;
+    color: black;
+    width: 14px;
+    text-align: center;
+    border-radius: 8px;
+    padding-left: 1px;
+    padding-right: 1px;
+    margin-left: -4px;
+}
+.icon{
+    color: white;
+    
+}
